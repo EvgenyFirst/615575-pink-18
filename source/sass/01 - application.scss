@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "Open Sans";
+  font-family: "Open Sans Light";
   src: url("../fonts/opensanslight.woff2") format("woff2"),
-      url("../fonts/opensanslight.woff") format("woff");
- }
+    url("../fonts/opensanslight.woff") format("woff");
+}
 
 .application {
   background: no-repeat url("../img/bg-back-mobile@1x.jpg");
@@ -11,9 +11,11 @@
   margin-right: 20px;
   padding-bottom: 35px;
 }
+
 .application__apps {
   background-color: #1d2631;
 }
+
 .application__platform {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans Light", "Arial", sans-serif;
 }
