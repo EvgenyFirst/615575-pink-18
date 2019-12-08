@@ -1,0 +1,11 @@
+// page-footer
+
+.copyright__text {
+  @include FontStandart;
+  font-size: 11px;
+  line-height: 1.8;
+
+  @include txtColor283645;
+}
+
+// page-footer

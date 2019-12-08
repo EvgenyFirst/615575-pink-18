@@ -10,4 +10,12 @@
   padding-bottom: 35px;
 }
 
+.application_head {
+  @include FontBold;
+  font-size: 18px;
+
+  @include txtColorWhite;
+  @include lineHeightNormal;
+}
+
 // One-application

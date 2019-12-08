@@ -4,4 +4,20 @@
   @include bgColorf2f2f2;
 }
 
+.advantages__title__slider {
+  @include FontBold;
+  font-size: 18;
+  line-height: 1;
+
+  @include txtColorBlack;
+}
+
+.advantages__description {
+  @include FontStandart;
+  font-size: 14;
+  line-height: 2.4;
+
+  @include txtColor283645;
+}
+
 // One-advantages

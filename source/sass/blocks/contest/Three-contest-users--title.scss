@@ -1,0 +1,11 @@
+// Three-contest-users
+
+.contest-title {
+  @include FontLight;
+  font-size: 18px;
+
+  @include lineHeightNormal;
+  @include txtColorWhite;
+}
+
+// Three-contest-users

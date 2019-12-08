@@ -16,7 +16,7 @@
 
 body {
   font-family: "Open Sans", "Arial", sans-serif;
-  line-height: 1; }
+  line-height: normal; }
 
 .page-header {
   background-color: #283645;
@@ -26,6 +26,12 @@ body {
   margin-top: 22px;
   margin-left: 20px;
   margin-right: 20px; }
+
+.main-nav {
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 3.2;
+  background-color: #ffffff; }
 
 .page-footer {
   background-color: #ffffff;
@@ -37,17 +43,41 @@ body {
   padding-top: 40px;
   padding-bottom: 40px; }
 
+.copyright__text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 11px;
+  line-height: 1.8;
+  background-color: #283645; }
+
 .advantages {
-  border-width: 1px;
-  border-style: solid;
-  border-color: #000000;
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 46px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000; }
+
+.advantages__title {
+  font-family: "Open Sans Light", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: normal;
+  background-color: #283645; }
 
 .slider__list {
   background-color: #f2f2f2; }
+
+.advantages__title__slider {
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-size: 18;
+  line-height: 1;
+  background-color: #000000; }
+
+.advantages__description {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14;
+  line-height: 2.4;
+  background-color: #283645; }
 
 .application {
   background: no-repeat url("../img/bg-back-mobile@1x.jpg");
@@ -58,11 +88,26 @@ body {
   margin-right: 20px;
   padding-bottom: 35px; }
 
+.application_head {
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  background-color: #ffffff; }
+
 .application__apps {
   background-color: #1d2631; }
 
+.application__list__link {
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  background-color: #ffffff; }
+
 .application__platform {
-  font-family: "Open Sans Light", "Arial", sans-serif; }
+  font-family: "Open Sans Light", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 2.4;
+  color: #868b91; }
 
 .photo-users {
   background-color: #ffffff;
@@ -72,6 +117,49 @@ body {
   margin-top: 35px;
   margin-left: 20px;
   margin-right: 20px; }
+
+.photo-users__text {
+  font-family: "Open Sans Light", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: normal;
+  background-color: #ffffff; }
+
+.photo-users__advertising {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 3;
+  background-color: #283645; }
+
+.top {
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 2.4;
+  background-color: #ffffff; }
+
+.photo-users__title {
+  font-family: "Open Sans Bold", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 2.4;
+  background-color: #283645; }
+
+.last-time-use {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 2.4;
+  color: #5e6873; }
+
+.photo-users__info {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 2.4;
+  background-color: #283645; }
+
+.like,
+.like-total {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 2.4;
+  color: #d22856; }
 
 .photo-users__bg {
   background: no-repeat url("../img/bg-back-mobile@1x.jpg"); }
@@ -99,5 +187,11 @@ body {
   margin-right: 20px;
   padding-top: 34px;
   padding-bottom: 53px; }
+
+.contest-title {
+  font-family: "Open Sans Light", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  background-color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,21 @@
 // миксины
 
+@mixin lineHeightNormal {
+  line-height: normal;
+}
+
+@mixin txtColorWhite {
+  background-color: #ffffff;
+}
+
+@mixin txtColor283645 {
+  background-color: #283645;
+}
+
+@mixin txtColorBlack {
+  background-color: #000000;
+}
+
 @mixin bgColorWhite {
   background-color: #ffffff;
 }

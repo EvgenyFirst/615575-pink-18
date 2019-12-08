@@ -4,8 +4,19 @@
   @include bgColor1d2631;
 }
 
+.application__list__link {
+  @include FontBold;
+  font-size: 18px;
+  line-height: 1.8;
+
+  @include txtColorWhite;
+}
+
 .application__platform {
   @include FontLight;
+  font-size: 14px;
+  line-height: 2.4;
+  color: #868b91;
 }
 
 // One-application

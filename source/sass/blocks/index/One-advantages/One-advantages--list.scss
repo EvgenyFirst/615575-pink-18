@@ -1,0 +1,11 @@
+// One-advantages
+
+.advantages__title {
+  @include FontLight;
+  font-size: 24px;
+
+  @include lineHeightNormal;
+  @include txtColor283645;
+}
+
+// One-advantages

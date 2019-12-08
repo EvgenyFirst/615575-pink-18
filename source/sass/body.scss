@@ -1,4 +1,4 @@
 body {
   @include FontStandart;
-  line-height: 1;
+  @include lineHeightNormal;
 }
