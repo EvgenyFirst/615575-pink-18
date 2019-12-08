@@ -1,8 +1,12 @@
+// Three-contest-users
+
 .contest-users {
   background: no-repeat url("../img/bg-back-mobile@1x.jpg");
-  border: 1px solid black;
+  @include border1pxSolidBlack;
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 34px;
   padding-bottom: 53px;
 }
+
+// Three-contest-users

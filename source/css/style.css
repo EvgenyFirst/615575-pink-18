@@ -1,43 +1,59 @@
-body {
-  line-height: 1; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: normal; }
 
 @font-face {
-  body {
-    font-family: "Open Sans";
-    src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff"); } }
+  font-family: "Open Sans Bold";
+  src: url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff") format("woff");
+  font-weight: bold; }
+
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("../fonts/opensanslight.woff2") format("woff2"), url("../fonts/opensanslight.woff") format("woff");
+  font-weight: lighter; }
+
+body {
+  font-family: "Open Sans", "Arial", sans-serif;
+  line-height: 1; }
 
 .page-header {
   background-color: #283645;
-  border: 1px solid black;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
   margin-top: 22px;
   margin-left: 20px;
   margin-right: 20px; }
 
 .page-footer {
   background-color: #ffffff;
-  border: 1px solid black;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 40px;
   padding-bottom: 40px; }
 
 .advantages {
-  background-color: #ffffff;
-  border: 1px solid black;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
   margin-left: 20px;
   margin-right: 20px;
-  padding-top: 46px; }
+  padding-top: 46px;
+  background-color: #ffffff; }
 
 .slider__list {
   background-color: #f2f2f2; }
 
-@font-face {
-  font-family: "Open Sans Light";
-  src: url("../fonts/opensanslight.woff2") format("woff2"), url("../fonts/opensanslight.woff") format("woff"); }
-
 .application {
   background: no-repeat url("../img/bg-back-mobile@1x.jpg");
-  border: 1px solid black;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
   margin-left: 20px;
   margin-right: 20px;
   padding-bottom: 35px; }
@@ -50,7 +66,9 @@ body {
 
 .photo-users {
   background-color: #ffffff;
-  border: 1px solid black;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
   margin-top: 35px;
   margin-left: 20px;
   margin-right: 20px; }
@@ -74,7 +92,9 @@ body {
 
 .contest-users {
   background: no-repeat url("../img/bg-back-mobile@1x.jpg");
-  border: 1px solid black;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 34px;

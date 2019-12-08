@@ -1,33 +1,44 @@
-body {
-  @font-face {
-    font-family: "Open Sans";
-    src: url("../fonts/opensans.woff2") format("woff2"),
-      url("../fonts/OpenSans-Regular.woff") format("woff");
-  }
-
-  line-height: 1;
-}
-
 // -------------------------------- //
 
 // каждому БЭМ-блоку должен соответствовать отдельный препроцессорный файл
 
+// миксины
+@import "mixins.scss";
+// миксины
+
+// шрифты, подключение файлов
+@import "fonts.scss";
+// шрифты, подключение файлов
+
+//
+@import "body.scss";
+//
+
 // общие блоки, подключение файлов
 @import "page-header.scss";
+@import "blocks/page-header/page-header--main-nav.scss";
 @import "page-footer.scss";
+@import "blocks/page-footer/page-footer--page-footer__wrapper.scss";
 // общие блоки, подключение файлов
 
 // index.html, подключение файлов
-@import "01 - advantages.scss";
-@import "01 - application.scss";
+@import "One-advantages.scss";
+@import "blocks/index/One-advantages/One-advantages--slider.scss";
+@import "One-application.scss";
+@import "blocks/index/One-application/One-application--application__list.scss";
 // index.html, подключение файлов
 
 // photo.html, подключение файлов
-@import "02 - photo-users.scss";
+@import "Two-photo-users.scss";
+@import "blocks/photo/Two-photo-users/Two-photo-users--slider.scss";
 // photo.html, подключение файлов
 
 // contest.html, подключение файлов
-@import "03 - contest-users.scss";
+@import "Three-contest-users.scss";
+@import "blocks/contest/Three-contest-users/Three-contest-users--wrapper.scss";
+@import "blocks/contest/Three-contest-users/Three-contest-users--contacts.scss";
+@import "blocks/contest/Three-contest-users/Three-contest-users--social.scss";
+@import "blocks/contest/Three-contest-users/Three-contest-users--copyright.scss";
 // contest.html, подключение файлов
 
 // каждому БЭМ-блоку должен соответствовать отдельный препроцессорный файл
