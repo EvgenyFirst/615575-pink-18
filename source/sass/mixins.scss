@@ -3,15 +3,19 @@
 @mixin bgColorWhite {
   background-color: #ffffff;
 }
+
 @mixin bgColor283645 {
   background-color: #283645;
 }
+
 @mixin bgColorf2f2f2 {
   background-color: #f2f2f2;
 }
+
 @mixin bgColor1d2631 {
   background-color: #1d2631;
 }
+
 @mixin border1pxSolidBlack(
   $border-width: 1px,
   $border-style: solid,
@@ -21,12 +25,15 @@
   border-style: $border-style;
   border-color: $border-color;
 }
+
 @mixin FontStandart {
   font-family: "Open Sans", "Arial", sans-serif;
 }
+
 @mixin FontBold {
   font-family: "Open Sans Bold", "Arial", sans-serif;
 }
+
 @mixin FontLight {
   font-family: "Open Sans Light", "Arial", sans-serif;
 }

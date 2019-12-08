@@ -2,7 +2,9 @@
 
 .application {
   background: no-repeat url("../img/bg-back-mobile@1x.jpg");
+
   @include border1pxSolidBlack;
+
   margin-left: 20px;
   margin-right: 20px;
   padding-bottom: 35px;

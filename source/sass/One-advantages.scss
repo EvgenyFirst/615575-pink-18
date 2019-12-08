@@ -1,12 +1,12 @@
 // One-advantages
 
 .advantages {
-  @include border1pxSolidBlack;
-
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 46px;
+
   @include bgColorWhite;
+  @include border1pxSolidBlack;
 }
 
 // One-advantages
