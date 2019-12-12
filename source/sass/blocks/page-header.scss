@@ -1,0 +1,12 @@
+// page-header
+
+.page-header {
+  color: $one-dark-blue-color;
+  border: $border-width $border-style $border-color;
+  //@include border1pxSolidBlack;
+  margin-top: 22px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+// page-header

@@ -1,8 +1,9 @@
 // page-footer
 
 .page-footer {
-  @include bgColorWhite;
-  @include border1pxSolidBlack;
+  background-color: $white-color;
+
+  border: $border-width $border-style $border-color;
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 40px;

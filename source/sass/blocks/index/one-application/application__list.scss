@@ -1,19 +1,21 @@
 // One-application
 
 .application__apps {
-  @include bgColor1d2631;
+  background-color: $two-dark-blue-color;
 }
 
 .application__list__link {
-  @include FontBold;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.8;
 
-  @include txtColorWhite;
+  color: $white-color;
 }
 
 .application__platform {
-  @include FontLight;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 300;
   font-size: 14px;
   line-height: 2.4;
   color: #868b91;

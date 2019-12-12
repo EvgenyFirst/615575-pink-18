@@ -3,7 +3,7 @@
 .contest-users {
   background: no-repeat url("../img/bg-back-mobile@1x.jpg");
 
-  @include border1pxSolidBlack;
+  border: $border-width $border-style $border-color;
 
   margin-left: 20px;
   margin-right: 20px;

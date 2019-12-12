@@ -5,8 +5,9 @@
   margin-right: 20px;
   padding-top: 46px;
 
-  @include bgColorWhite;
-  @include border1pxSolidBlack;
+  background-color: $white-color;
+
+  border: $border-width $border-style $border-color;
 }
 
 // One-advantages

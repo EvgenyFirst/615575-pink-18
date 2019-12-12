@@ -1,8 +1,8 @@
 // Two-photo-users
 
 .photo-users {
-  @include bgColorWhite;
-  @include border1pxSolidBlack;
+  background-color: $white-color;
+  border: $border-width $border-style $border-color;
   margin-top: 35px;
   margin-left: 20px;
   margin-right: 20px;
