@@ -53,7 +53,7 @@
 .slider__list {
   background-color: #f2f2f2; }
 
-.advantages__title__slider {
+.advantages__title-slider {
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 18;
@@ -105,12 +105,29 @@
   margin-left: 20px;
   margin-right: 20px; }
 
+.photo-users__bg {
+  background: no-repeat url("../img/bg-back-mobile@1x.jpg"); }
+
 .photo-users__text {
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 300;
   font-size: 24px;
   line-height: normal;
   color: #ffffff; }
+
+.photo-users__list {
+  margin-top: 55px; }
+
+.photo-users__item {
+  margin-bottom: 20px; }
+
+.photo-users__item--up {
+  background-color: #f2f2f2; }
+
+.info-header {
+  padding-top: 25px;
+  padding-left: 17px;
+  padding-bottom: 26px; }
 
 .photo-users__advertising {
   font-family: "Open Sans", "Arial", sans-serif;
@@ -129,14 +146,14 @@
 .photo-users__title {
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 2.4;
   color: #283645; }
 
 .last-time-use {
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 2.4;
   color: #5e6873; }
 
@@ -154,23 +171,6 @@
   font-size: 12px;
   line-height: 2.4;
   color: #d22856; }
-
-.photo-users__bg {
-  background: no-repeat url("../img/bg-back-mobile@1x.jpg"); }
-
-.photo-users__item--up {
-  background-color: #1d2631; }
-
-.photo-users__list {
-  margin-top: 55px; }
-
-.photo-users__item {
-  margin-bottom: 20px; }
-
-.info-header {
-  padding-top: 25px;
-  padding-left: 17px;
-  padding-bottom: 26px; }
 
 .contest-users {
   background: no-repeat url("../img/bg-back-mobile@1x.jpg");

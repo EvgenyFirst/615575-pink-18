@@ -15,30 +15,25 @@
 @import "blocks/page-header/main-nav.scss";
 //
 @import "blocks/page-footer.scss";
-@import "blocks/page-footer/footer__wrapper.scss";
-@import "blocks/page-footer/footer__wrapper--contacts.scss";
-@import "blocks/page-footer/footer__wrapper--social.scss";
-@import "blocks/page-footer/footer__wrapper--copyright.scss";
+@import "blocks/page-footer/copyright.scss";
 // общие блоки, подключение файлов
 
 // index.html, подключение файлов
-@import "blocks/one-advantages.scss";
-@import "blocks/index/one-advantages/advantages--list.scss";
-@import "blocks/index/one-advantages/advantages--slider.scss";
-@import "blocks/one-application.scss";
-@import "blocks/index/one-application/application__list.scss";
+@import "blocks/advantages.scss";
+@import "blocks/advantages/advantages__list.scss";
+@import "blocks/advantages/slider__list.scss";
+@import "blocks/application.scss";
+@import "blocks/application/application__list.scss";
 // index.html, подключение файлов
 
 // photo.html, подключение файлов
-@import "blocks/two-photo-users.scss";
-@import "blocks/photo/two-photo-users/users--bg.scss";
-@import "blocks/photo/two-photo-users/users--list.scss";
-@import "blocks/photo/two-photo-users/users--slider.scss";
+@import "blocks/photo-users.scss";
+@import "blocks/photo-users/photo-users__bg.scss";
+@import "blocks/photo-users/photo-users__list.scss";
 // photo.html, подключение файлов
 
 // contest.html, подключение файлов
-@import "blocks/three-contest-users.scss";
-@import "blocks/contest/users--title.scss";
+@import "blocks/contest-users.scss";
 // contest.html, подключение файлов
 
 // каждому БЭМ-блоку должен соответствовать отдельный препроцессорный файл

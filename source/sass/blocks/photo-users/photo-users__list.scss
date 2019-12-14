@@ -1,4 +1,21 @@
 // Two-photo-users
+.photo-users__list {
+  margin-top: 55px;
+}
+
+.photo-users__item {
+  margin-bottom: 20px;
+}
+
+.photo-users__item--up {
+  background-color: $lite-white-color;
+}
+
+.info-header {
+  padding-top: 25px;
+  padding-left: 17px;
+  padding-bottom: 26px;
+}
 
 .photo-users__advertising {
   font-family: "Open Sans", "Arial", sans-serif;
@@ -21,7 +38,7 @@
 .photo-users__title {
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 2.4;
 
   color: $one-dark-blue-color;
@@ -30,7 +47,7 @@
 .last-time-use {
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 2.4;
   color: #5e6873;
 }
