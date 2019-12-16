@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: normal; }
+
+.page-header {
+  color: #283645;
+  border: 1px solid #000000;
+  margin-top: 22px;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.main-nav {
+  background-color: #283645; }
+
+.site-list__item a {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 3.2;
+  color: #ffffff; }
+
+.page-footer {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.copyright__text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.8;
+  color: #283645; }
+
+.advantages {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 46px;
+  background-color: #ffffff;
+  border: 1px solid #000000; }
+
+.advantages__title {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: normal;
+  color: #283645; }
+
+.slider__list {
+  background-color: #f2f2f2; }
+
+.advantages__title-slider {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18;
+  line-height: 1;
+  color: #000000; }
+
+.advantages__description {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14;
+  line-height: 2.4;
+  color: #283645; }
+
+.application {
+  background: no-repeat url("../img/bg-back-mobile@1x.jpg");
+  border: 1px solid #000000;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 35px; }
+
+.application_head {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: normal; }
+
+.application__apps {
+  background-color: #1d2631; }
+
+.application__list__link {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #ffffff; }
+
+.application__platform {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 2.4;
+  color: #868b91; }
+
+.photo-users {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  margin-top: 35px;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.photo-users__bg {
+  background: no-repeat url("../img/bg-back-mobile@1x.jpg"); }
+
+.photo-users__text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: normal;
+  color: #ffffff; }
+
+.photo-users__list {
+  margin-top: 55px; }
+
+.photo-users__item {
+  margin-bottom: 20px; }
+
+.photo-users__item--up {
+  background-color: #f2f2f2; }
+
+.info-header {
+  padding-top: 25px;
+  padding-left: 17px;
+  padding-bottom: 26px; }
+
+.photo-users__advertising {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 3;
+  color: #283645; }
+
+.top {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 2.4;
+  color: #ffffff; }
+
+.photo-users__title {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 2.4;
+  color: #283645; }
+
+.last-time-use {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2.4;
+  color: #5e6873; }
+
+.photo-users__info {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.4;
+  color: #283645; }
+
+.like,
+.like-total {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2.4;
+  color: #d22856; }
+
+.contest-users {
+  background: no-repeat url("../img/bg-back-mobile@1x.jpg");
+  border: 1px solid #000000;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 34px;
+  padding-bottom: 53px; }
+
+.contest-title {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: normal;
+  color: #ffffff; }
+
+/*# sourceMappingURL=style.css.map */

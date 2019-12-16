@@ -1,0 +1,22 @@
+// One-application
+
+.application {
+  background: no-repeat url("../img/bg-back-mobile@1x.jpg");
+
+  border: $border-width $border-style $border-color;
+
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 35px;
+}
+
+.application_head {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  color: $white-color;
+  line-height: normal;
+}
+
+// One-application
