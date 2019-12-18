@@ -1,12 +1,83 @@
-// Two-photo-users
+// photo-users
 
 .photo-users {
   background-color: $white-color;
-  border: $border-width $border-style $border-color;
+  border: 1px solid #000000;
   margin-top: 35px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
+.photo-users__bg {
+  background: no-repeat url("../img/bg-back-mobile@1x.jpg");
+}
 
-// Two-photo-users
+.photo-users__text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: normal;
+  color: $white-color;
+}
+
+.photo-users__list {
+  margin-top: 55px;
+}
+
+.photo-users__item {
+  margin-bottom: 20px;
+}
+
+.photo-users__item--up {
+  background-color: $lite-white-color;
+}
+
+.photo-users__info-header {
+  padding-top: 25px;
+  padding-left: 17px;
+  padding-bottom: 26px;
+}
+
+.photo-users__advertising {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 3;
+  color: $one-dark-blue-color;
+}
+
+.photo-users__top {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 2.4;
+  color: $white-color;
+}
+
+.photo-users__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 2.4;
+  color: $one-dark-blue-color;
+}
+
+.photo-users__last-time-use {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2.4;
+  color: $gray-blue-color;
+}
+
+.photo-users__info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.4;
+  color: $one-dark-blue-color;
+}
+
+.photo-users__like,
+.photo-users__like-total {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2.4;
+  color: $crimson-color;
+}
+
+// photo-users

@@ -1,9 +1,9 @@
 // page-header
 
 .page-header {
+  background-color: $one-dark-blue-color;
   color: $one-dark-blue-color;
-  border: $border-width $border-style $border-color;
-  //@include border1pxSolidBlack;
+  border: 1px solid $black-color;
   margin-top: 22px;
   margin-left: 20px;
   margin-right: 20px;

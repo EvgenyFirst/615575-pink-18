@@ -1,21 +1,19 @@
 // Three-contest-users
 
-.contest-users {
+.contest {
   background: no-repeat url("../img/bg-back-mobile@1x.jpg");
-
-  border: $border-width $border-style $border-color;
-
+  border-width: 1px;
+  border-style: solid;
+  border-color: $black-color;
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 34px;
   padding-bottom: 53px;
 }
 
-.contest-title {
-  font-family: "Open Sans", "Arial", sans-serif;
+.contest__title {
   font-weight: 300;
   font-size: 18px;
-
   line-height: normal;
   color: $white-color;
 }

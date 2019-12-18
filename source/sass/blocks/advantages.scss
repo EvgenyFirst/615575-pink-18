@@ -1,13 +1,34 @@
-// One-advantages
+// advantages
 
 .advantages {
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 46px;
-
   background-color: $white-color;
-
-  border: $border-width $border-style $border-color;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $black-color;
 }
 
-// One-advantages
+.advantages__title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: normal;
+  color: $one-dark-blue-color;
+}
+
+.advantages__title-slider {
+  font-weight: 700;
+  font-size: 18;
+  line-height: 1;
+  color: $black-color;
+}
+
+.advantages__description {
+  font-weight: 400;
+  font-size: 14;
+  line-height: 2.4;
+  color: $one-dark-blue-color;
+}
+
+// advantages
