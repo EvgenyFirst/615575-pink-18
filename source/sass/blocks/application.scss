@@ -1,0 +1,38 @@
+// application
+
+.application {
+  background: no-repeat url("../img/bg-back-mobile@1x.jpg");
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 35px;
+}
+
+.application_head {
+  font-weight: 700;
+  font-size: 18px;
+  color: $white-color;
+  line-height: normal;
+}
+
+.application__apps {
+  background-color: $two-dark-blue-color;
+}
+
+.application__list__link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.8;
+  color: $white-color;
+}
+
+.application__platform {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 2.4;
+  color: $gray-color;
+}
+
+// application
