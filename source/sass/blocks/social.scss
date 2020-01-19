@@ -1,0 +1,26 @@
+// social
+
+.social__list {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+}
+
+.social__item {
+  display: inline-flex;
+
+  width: 51px;
+  min-height: 51px;
+
+  margin-right: 12px;
+
+  border: 3px solid $lite-gray-color;
+  border-radius: 50%;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+// social
