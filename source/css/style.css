@@ -618,7 +618,7 @@ img {
   .photo-users__text-desktop {
     display: block; }
   .photo-users {
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 120px;
     margin-right: 120px; }
   .photo-users__bg {

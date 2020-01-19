@@ -20,7 +20,6 @@
 
   background-color: $white-color;
   border: 1px solid #000000;
-
 }
 
 .photo-users__text-desktop {
@@ -72,7 +71,6 @@
 
 .photo-users__link {
   display: block;
-
   margin-right: -42px;
 
   position: relative;
@@ -201,8 +199,9 @@
   .photo-users__text-desktop {
     display: block;
   }
+
   .photo-users {
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 120px;
     margin-right: 120px;
   }
