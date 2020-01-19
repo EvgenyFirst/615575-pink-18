@@ -2,23 +2,48 @@
 
 .application {
   background: no-repeat url("../img/bg-back-mobile@1x.jpg");
+  background-size: cover;
+
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-bottom: 35px;
+
+  min-height: 665px;
+
+  display: flex;
+  flex-direction: column;
+
   border-width: 1px;
   border-style: solid;
   border-color: #000000;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-bottom: 35px;
 }
 
 .application_head {
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 24px;
   color: $white-color;
   line-height: normal;
+  text-align: center;
+}
+
+.application__list {
+  background-color: $two-dark-blue-color;
+  text-align: center;
+}
+
+.application__item {
+  display: block;
+  margin: 0 auto;
 }
 
 .application__apps {
-  background-color: $two-dark-blue-color;
+  list-style: none;
+
+  display: flex;
+  margin: 0 auto;
+
+  align-items: center;
+  justify-content: center;
 }
 
 .application__list__link {
@@ -35,4 +60,47 @@
   color: $gray-color;
 }
 
+@media (min-width: $tablet-width) {
+  .application {
+    background: no-repeat url("../img/bg-back-tablet@1x.jpg");
+    background-size: cover;
+
+    min-height: 618px;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .application_head {
+    font-weight: 400;
+    font-size: 24px;
+    color: $white-color;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .application__item-img {
+    width: 466px;
+    height: 547px;
+  }
+
+  .application__list {
+    display: block;
+    order: -1;
+    text-align: center;
+    background-color: transparent;
+
+    position: relative;
+    top: 150px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .application {
+    background: transparent;
+
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
 // application

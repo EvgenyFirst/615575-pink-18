@@ -8,6 +8,11 @@
 
 // для общих стилей
 @import "blocks/general.scss";
+@import "blocks/img.scss";
+@import "blocks/no-outline.scss";
+@import "blocks/container.scss";
+@import "blocks/visually-hidden.scss";
+@import "blocks/bg.scss";
 // для общих стилей
 
 // шрифты, подключение файлов
@@ -21,12 +26,14 @@
 //
 @import "blocks/page-footer.scss";
 @import "blocks/copyright.scss";
+@import "blocks/social.scss";
 // общие блоки, подключение файлов
 
 // index.html, подключение файлов
 @import "blocks/advantages.scss";
 @import "blocks/slider.scss";
 @import "blocks/application.scss";
+@import "blocks/effect-total-day.scss";
 // index.html, подключение файлов
 
 // photo.html, подключение файлов

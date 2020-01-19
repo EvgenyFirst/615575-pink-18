@@ -4,4 +4,41 @@
   background-color: $lite-white-color;
 }
 
+.slider__app-pic-hello-phone {
+  display: none;
+}
+
+.slider__app-pic-hello-tablet {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .slider__list {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .slider__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slider__app-pic-hello {
+    display: none;
+  }
+
+  .slider__app-pic-hello-tablet {
+    display: block;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slider__item {
+    flex-direction: row;
+  }
+
+  .slider__app-pic-hello-phone {
+    display: block;
+  }
+}
 // advantages

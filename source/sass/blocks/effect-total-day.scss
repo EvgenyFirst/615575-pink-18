@@ -1,0 +1,55 @@
+// effect-total-day
+
+.effect-total-day {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .effect-total-day {
+    display: block;
+    min-height: 355px;
+
+    background-color: $white-color;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  .effect-total-day___wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    padding-top: 59px;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .effect-total-day___-pic-timer-desktop {
+    display: none;
+  }
+
+  .effect-total-day___wrapper-right {
+    width: 310px;
+    margin-left: 61px;
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .effect-total-day {
+    padding-left: 120px;
+    padding-right: 120px;
+
+    background-color: $lite-white-color;
+  }
+
+  .effect-total-day___-pic-timer-tablet {
+    display: none;
+  }
+
+  .effect-total-day___-pic-timer-desktop {
+    display: block;
+  }
+}
+
+// effect-total-day
